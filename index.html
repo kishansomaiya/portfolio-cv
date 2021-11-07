@@ -1,0 +1,235 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta charset="UTF-8">
+    <title>Kishan Somaiya</title>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" integrity="sha384-wvfXpqpZZVQGK6TAh5PVlGOfQNHSoD2xbE+QkPxCAFlNEevoEH3Sl0sibVcOQVnN" crossorigin="anonymous">
+    <link href="style.css" rel="stylesheet" type="text/css"/>
+    <link href="loader.css" rel="stylesheet" type="text/css"/>
+    <link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="/favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="/favicon-16x16.png">
+    <link rel="manifest" href="/site.webmanifest">
+</head>
+<body>
+    <div id="spinner-wrapper" class="spinner-wrapper">
+        <div class="sk-folding-cube">
+            <div class="sk-cube1 sk-cube"></div>
+            <div class="sk-cube2 sk-cube"></div>
+            <div class="sk-cube4 sk-cube"></div>
+            <div class="sk-cube3 sk-cube"></div>
+        </div>
+    </div>
+    <header>
+        <a href="#" class="logo">Portfolio</a>
+        <div class="toggle" onclick="toggleMenu();"></div>
+        <ul class="menu">
+            <li><a href="#home" onclick="toggleMenu();">Home</a></li>
+            <li><a href="#about" onclick="toggleMenu();">About</a></li>
+            <li><a href="#services" onclick="toggleMenu();">Services</a></li>
+            <li><a href="#work" onclick="toggleMenu();">Work</a></li>
+            <li><a href="#testimonial" onclick="toggleMenu();">Testimonial</a></li>
+            <li><a href="#contact" onclick="toggleMenu();">Contact</a></li>
+        </ul>
+    </header>
+    <section class="banner" id="home">
+        <div class="textBx">
+            <h2>Hello, I'm<br><span>Kishan Somaiya</span></h2>
+            <h3>I'm Mobile and Web Developer</h3>
+            <a href="#about" class="btn">About Me</a>
+        </div>
+    </section>
+
+<!--*****************ABOUT******************-->
+
+    <section class="about" id="about">
+        <div class="heading">
+            <h2>About Me</h2>
+        </div>
+        <div class="content">
+            <div class="contentBx w50">
+                <h3>I'm Mobile and Web Developer</h3>
+                <p>My Name is Demo Name. I am currently pursuing my Bachelor of Engineering from A. D. patel Institute of Technology, Anand, Gujarat.<br><br>I'm interested in learning more about Web Development with React and Node JS and Mobile Development with React Native. I do programming with C++ and Python.</p>
+            </div>
+            <div class="w50">
+                <img src="profile.jpg" class="img">
+            </div>
+        </div>
+    </section>
+
+<!--*****************SERVICE******************-->
+
+    <section class="services" id="services">
+        <div class="heading white">
+            <h2>My Services</h2>
+            <p>Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.</p>
+        </div>
+        <div class="content">
+            <div class="servicesBx">
+                <img src="icon1.png">
+                <h2>Web Design</h2>
+                <p>I have made many HTML and CSS projects that are on my github account.</p>
+            </div>
+            <div class="servicesBx">
+                <img src="icon2.png">
+                <h2>Web Development</h2>
+                <p>I do Web development with Vanilla javascript and React JS.</p>
+            </div>
+            <div class="servicesBx">
+                <img src="icon3.png">
+                <h2>Native Apps</h2>
+                <p>I make Native apps with React Native. You can find my react native projects on my github account.</p>
+            </div>
+            <div class="servicesBx">
+                <img src="icon4.png">
+                <h2>Data stucture and Algorithm</h2>
+                <p>I do programming with C++ and Python.</p>
+            </div>
+<!--
+            <div class="servicesBx">
+                <img src="icon5.png">
+                <h2>Content Writing</h2>
+                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+            </div>
+            <div class="servicesBx">
+                <img src="icon6.png">
+                <h2>Video Editing</h2>
+                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+            </div>
+        </div>
+-->
+    </section>
+
+<!--*****************WORK******************-->
+
+    <section class="work" id="work">
+        <div class="heading">
+            <h2>My Latest Work</h2>
+            <p>Below are My latest work, You can also cehck my work on my github account.</p>
+        </div>
+        <div class="content">
+            <div class="workBx">
+                <a href="https://budgetapp271.netlify.app"><img src="Budget App.png"></a>
+            </div>
+            <div class="workBx">
+                <a href="https://taskmanager271.netlify.app"><img src="Task Manager.png"></a>
+            </div>
+            <div class="workBx">
+                <a href="https://kishansomaiya271.netlify.app"><img src="portfolio.png"></a>
+            </div>
+<!--
+            <div class="workBx">
+                <img src="product4.jpg">
+            </div>
+-->
+            <div class="heading">
+                <a href="#" class="btn">View More</a>
+            </div>
+        </div>
+    </section>
+
+<!--****************TESTIMONIAL*******************-->
+<!--
+    <section class="testimonial" id="testimonial">
+        <div class="heading">
+            <h2>Testimonial</h2>
+            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+        </div>
+        <div class="content">
+            <div class="testimonialBx">
+                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
+                <h3>Someone Famous<br><span>Creative Designer</span></h3>
+            </div>
+            <div class="testimonialBx">
+                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
+                <h3>Someone Famous<br><span>Creative Designer</span></h3>
+            </div>
+        </div>
+    </section>
+-->
+
+<!--************CONTACT***************-->
+
+    <section class="contact" id="contact">
+        <div class="heading white">
+            <h2>Contact Me</h2>
+            <p>Contact Me on Github, LinkedIn and Email.</p>
+        </div>
+        <div class="content">
+            <div class="contactInfo">
+                <h3>Contact Info</h3>
+                <div class="contactInfoBx">
+                    <div class="box">
+                        <div class="icon">
+                            <i class="fa fa-envelope-o"></i>
+                        </div>
+                        <div class="text">
+                            <h3>Email</h3>
+                            <p>kishansomaiya271@gmail.com</p>
+                        </div>
+                    </div>
+                    <div class="box">
+                        <div class="icon">
+                            <i class="fa fa-linkedin"></i>
+                        </div>
+                        <div class="text">
+                            <h3>Linkedin ID</h3>
+                            <p>https://www.linkedin.com/in/kishan-somaiya-9825a3192</p>
+                        </div>
+                    </div>
+                    <div class="box">
+                        <div class="icon">
+                            <i class="fa fa-github"></i>
+                        </div>
+                        <div class="text">
+                            <h3>Github ID</h3>
+                            <p>https://github.com/kishansomaiya</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="formBx">
+                <form>
+                    <a class="message" href="mailto:kishansomaiya271@gmail.com"><h3>Message Me</h3></a>
+                    
+                </form>
+            </div>
+        </div>
+    </section>
+
+    
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+    <script>
+        setTimeout(function() {
+            $(".spinner-wrapper").fadeToggle();
+        }, 1500);
+    </script>
+    <script type="text/javascript">
+        window.addEventListener('scroll', function(){
+            var header = document.querySelector('header');
+            header.classList.toggle('sticky', window.scrollY > 0);
+        });
+
+        function toggleMenu() {
+            var menuToggle = document.querySelector('.toggle');
+            var menu = document.querySelector('.menu');
+            menuToggle.classList.toggle('active');
+            menu.classList.toggle('active');
+        }
+
+        
+
+        
+    </script>
+
+<script src="https://cdn.jsdelivr.net/npm/darkmode-js@1.5.7/lib/darkmode-js.min.js"></script>
+<script>
+  function addDarkmodeWidget() {
+    new Darkmode().showWidget();
+  }
+  window.addEventListener('load', addDarkmodeWidget);
+</script>
+</body>
+</html>
+
